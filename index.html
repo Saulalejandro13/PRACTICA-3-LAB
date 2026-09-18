@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Elementos de Desarrollo Web</title>
+
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 30px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+            background-color: white;
+        }
+
+        th {
+            background-color: #333333;
+            color: white;
+            padding: 15px;
+            border: 2px solid black;
+            font-size: 20px;
+        }
+
+        td {
+            padding: 15px;
+            border: 2px solid black;
+            vertical-align: top;
+        }
+
+        tr:nth-child(even) {
+            background-color: #e8e8e8;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #ffffff;
+        }
+
+        code {
+            background-color: #dddddd;
+            padding: 4px;
+            display: inline-block;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+
+        .nombre {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+    <h1>Principales Elementos del Desarrollo Web</h1>
+
+    <p>
+        El desarrollo web se compone principalmente de tres tecnologías:
+        HTML para la estructura, CSS para el diseño y JavaScript para el comportamiento.
+    </p>
+
+
+    <table>
+
+        <!-- Encabezados -->
+
+        <tr>
+            <th>Estructura (HTML)</th>
+            <th>Estilo (CSS)</th>
+            <th>Comportamiento (JavaScript)</th>
+        </tr>
+
+
+        <!-- Fila 1 -->
+
+        <tr>
+
+            <td>
+                <span class="nombre">&lt;div&gt;</span>
+                <br>
+
+                <code>
+                    &lt;div&gt;Contenido&lt;/div&gt;
+                </code>
+
+                <br>
+
+                Permite crear divisiones o secciones dentro de una página web
+                para organizar otros elementos.
+            </td>
+
+
+            <td>
+                <span class="nombre">color</span>
+                <br>
+
+                <code>
+                    color: blue;
+                </code>
+
+                <br>
+
+                Permite modificar el color del texto de un elemento.
+            </td>
+
+
+            <td>
+                <span class="nombre">onclick</span>
+                <br>
+
+                <code>
+                    onclick="miFuncion()"
+                </code>
+
+                <br>
+
+                Ejecuta una acción de JavaScript cuando el usuario hace clic
+                sobre un elemento.
+            </td>
+
+        </tr>
+
+
+        <!-- Fila 2 -->
+
+        <tr>
+
+            <td>
+                <span class="nombre">&lt;p&gt;</span>
+                <br>
+
+                <code>
+                    &lt;p&gt;Este es un párrafo&lt;/p&gt;
+                </code>
+
+                <br>
+
+                Se utiliza para crear párrafos de texto dentro de una página web.
+            </td>
+
+
+            <td>
+                <span class="nombre">font-size</span>
+                <br>
+
+                <code>
+                    font-size: 20px;
+                </code>
+
+                <br>
+
+                Permite modificar el tamaño de la letra de un elemento.
+            </td>
+
+
+            <td>
+                <span class="nombre">addEventListener()</span>
+                <br>
+
+                <code>
+                    boton.addEventListener("click", funcion);
+                </code>
+
+                <br>
+
+                Permite detectar eventos realizados por el usuario, como clics,
+                movimientos del mouse o pulsaciones del teclado.
+            </td>
+
+        </tr>
+
+
+        <!-- Fila 3 -->
+
+        <tr>
+
+            <td>
+                <span class="nombre">&lt;a&gt;</span>
+                <br>
+
+                <code>
+                    &lt;a href="pagina.html"&gt;Enlace&lt;/a&gt;
+                </code>
+
+                <br>
+
+                Permite crear enlaces hacia otras páginas, documentos o sitios web.
+            </td>
+
+
+            <td>
+                <span class="nombre">margin</span>
+                <br>
+
+                <code>
+                    margin: 20px;
+                </code>
+
+                <br>
+
+                Controla el espacio exterior que existe alrededor de un elemento.
+            </td>
+
+
+            <td>
+                <span class="nombre">console.log()</span>
+                <br>
+
+                <code>
+                    console.log("Hola");
+                </code>
+
+                <br>
+
+                Permite mostrar información en la consola del navegador.
+                Es muy utilizada para comprobar valores y detectar errores.
+            </td>
+
+        </tr>
+
+
+        <!-- Fila 4 -->
+
+        <tr>
+
+            <td>
+                <span class="nombre">&lt;img&gt;</span>
+                <br>
+
+                <code>
+                    &lt;img src="imagen.jpg" alt="Imagen"&gt;
+                </code>
+
+                <br>
+
+                Se utiliza para insertar imágenes dentro de una página web.
+            </td>
+
+
+            <td>
+                <span class="nombre">padding</span>
+                <br>
+
+                <code>
+                    padding: 15px;
+                </code>
+
+                <br>
+
+                Controla el espacio interior entre el contenido y el borde
+                de un elemento.
+            </td>
+
+
+            <td>
+                <span class="nombre">Variables</span>
+                <br>
+
+                <code>
+                    let nombre = "Juan";
+                </code>
+
+                <br>
+
+                Las variables permiten almacenar datos que pueden utilizarse
+                durante la ejecución de un programa.
+            </td>
+
+        </tr>
+
+
+        <!-- Fila 5 -->
+
+        <tr>
+
+            <td>
+                <span class="nombre">&lt;form&gt;</span>
+                <br>
+
+                <code>
+                    &lt;form&gt;...&lt;/form&gt;
+                </code>
+
+                <br>
+
+                Permite crear formularios para obtener información del usuario,
+                como nombres, correos o contraseñas.
+            </td>
+
+
+            <td>
+                <span class="nombre">border</span>
+                <br>
+
+                <code>
+                    border: 2px solid black;
+                </code>
+
+                <br>
+
+                Permite agregar y modificar el borde alrededor de un elemento.
+            </td>
+
+
+            <td>
+                <span class="nombre">function</span>
+                <br>
+
+                <code>
+                    function saludo() { alert("Hola"); }
+                </code>
+
+                <br>
+
+                Permite agrupar instrucciones que pueden ejecutarse cuando
+                sean necesarias.
+            </td>
+
+        </tr>
+
+
+        <!-- Fila 6 -->
+
+        <tr>
+
+            <td>
+                <span class="nombre">&lt;h1&gt;</span>
+                <br>
+
+                <code>
+                    &lt;h1&gt;Título principal&lt;/h1&gt;
+                </code>
+
+                <br>
+
+                Representa un encabezado o título principal dentro de un documento HTML.
+            </td>
+
+
+            <td>
+                <span class="nombre">background-color</span>
+                <br>
+
+                <code>
+                    background-color: lightblue;
+                </code>
+
+                <br>
+
+                Permite modificar el color de fondo de un elemento.
+            </td>
+
+
+            <td>
+                <span class="nombre">alert()</span>
+                <br>
+
+                <code>
+                    alert("Bienvenido");
+                </code>
+
+                <br>
+
+                Muestra una ventana emergente con un mensaje para el usuario.
+            </td>
+
+        </tr>
+
+
+        <!-- Fila 7 -->
+
+        <tr>
+
+            <td>
+                <span class="nombre">&lt;input&gt;</span>
+                <br>
+
+                <code>
+                    &lt;input type="text"&gt;
+                </code>
+
+                <br>
+
+                Permite crear campos donde el usuario puede introducir información.
+            </td>
+
+
+            <td>
+                <span class="nombre">text-align</span>
+                <br>
+
+                <code>
+                    text-align: center;
+                </code>
+
+                <br>
+
+                Permite controlar la alineación del texto.
+            </td>
+
+
+            <td>
+                <span class="nombre">if</span>
+                <br>
+
+                <code>
+                    if (edad >= 18) { ... }
+                </code>
+
+                <br>
+
+                Permite ejecutar instrucciones solamente cuando se cumple
+                determinada condición.
+            </td>
+
+        </tr>
+
+    </table>
+
+
+</body>
+
+</html>
